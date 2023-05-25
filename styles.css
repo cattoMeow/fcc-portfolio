@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    /* min-height: 3000px; */
+}
+
+.jumbotron {
+    /* padding: 2rem 1rem ; */
+    padding-top: 6rem;
+    background-color: #b1d6ff;
+    height: 100vh;
+}
+
+.wave-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#projects {
+    background-color: #b1d6ff;
+    
+}
+
+section {
+    padding-top: 5rem;
+}
+
+/* media query mobile */
+
+@media (max-width: 576px) {
+    .btn-github {
+        width: 80%;
+    }
+
+    .navbar {
+        background-color: black !important;
+    }
+}
